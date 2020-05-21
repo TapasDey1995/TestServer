@@ -13,7 +13,7 @@ public class ServerTestApplication extends SpringBootServletInitializer{
 		System.out.println("welcome ts");
 	}
 	
-	@Override
+	 @Override
 	 protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 	  return application.sources(ServerTestApplication.class);
 	 }
