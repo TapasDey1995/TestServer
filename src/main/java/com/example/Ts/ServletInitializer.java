@@ -1,4 +1,4 @@
-package com.example.Ts;
+package com.example.ts;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

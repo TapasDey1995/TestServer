@@ -1,4 +1,4 @@
-package com.example.Ts;
+package com.example.ts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class ServerTestApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
+		
 		SpringApplication.run(ServerTestApplication.class, args);
-		System.out.println("welcome ts");
+		
 	}
 	
 	 @Override

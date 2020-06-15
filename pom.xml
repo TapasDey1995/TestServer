@@ -17,7 +17,11 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		 <junit-jupiter.version>5.3.2</junit-jupiter.version>
+        <mockito.version>2.24.0</mockito.version>
 	</properties>
+	
+	
 
 	<dependencies>
 		<dependency>
@@ -28,6 +32,25 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web-services</artifactId>
 		</dependency>
+		
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>junit</groupId>
+                    <artifactId>junit</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        
+		
+		<dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
