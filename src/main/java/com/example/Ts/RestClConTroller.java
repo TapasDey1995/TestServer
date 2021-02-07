@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestClConTroller {
 	@GetMapping("/hello")
     public String sayHello() {
-        return "hello Hacking LETS STARTssssdd";
+        return "hello Hacking LETS STARTssssdd welcome";
     }
 }
